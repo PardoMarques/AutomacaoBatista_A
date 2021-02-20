@@ -1,6 +1,4 @@
-# Dir["path/to/pages/* .rb"].each {|file| require file}
-# require_relative "../seleniumTestes_spec.rb"
-# require_relative "../seleniumTestes_spec.rb"
+Dir["path/to/pages/* .rb"].each {|file| require file}
 
 class BasePage
 

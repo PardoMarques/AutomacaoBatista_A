@@ -1,5 +1,4 @@
 Dir["path/to/pages/* .rb"].each {|file| require file}
-# require_relative './_base_page.rb'
 
 class CreateUserPage < BasePage
 
